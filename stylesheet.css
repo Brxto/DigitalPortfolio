@@ -1,17 +1,46 @@
 #avatar {
+	display: block;
     width: 130px;
     height: 150px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 }
-fa {
+
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.footer {
+  background: #061D25;
+  padding: 10px 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
+/* Old footer inmplementation that also sux */
+/*fa {
+
     padding: 20px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    size: 200px;
 }
 
 .fa:hover {
@@ -62,4 +91,4 @@ fa {
 .fa-soundcloud {
   background: #ff5500;
   color: white;
-}
+}*/
