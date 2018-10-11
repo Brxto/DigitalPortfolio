@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<img id="avatar" src="shinji.jpg">
+	<img id="avatar" src="shinji.png">
 	
 	<nav class="navbar navbar-light bg-light">
 	  <form class="form-inline">
@@ -21,13 +21,42 @@
 	    <a href="contact.html"><button class="btn btn-sm btn-outline-secondary" type="button">Contact</button></a>
 	  </form>
 	</nav>
+	<div class="filler-text">
+ 	<h3>Photography Portfolio</h3>
+	<p> Below you can see some of my photography work throughout the years. More of my work can be found on the Instagram and Flickr </p>
+	</div>
+	<!-- Image gallery -->
+	<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="Mel.jpg" alt="Mel"  class="gallery" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <img src="Couch.jpg" class="gallery" alt="Couch" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <img src="Frodo.jpg" class="gallery" alt="Bike" onclick="openImg(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
 <!-- footer that actually works and is in the bottom -->
 <footer class="footer">
   <div class="container text-center">
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-flickr"></i></a>
-    <a href="#"><i class="fa fa-soundcloud"></i></a>
+    <a href="https://www.instagram.com/brxto"><i class="fa fa-instagram" style="color:#55A747"></i></a>
+    <a href="https://www.linkedin.com/in/bryan-r-cedeno-brito/"><i class="fa fa-linkedin" style="color:#55A747"></i></a>
+    <a href="https://www.flickr.com/photos/90471523@N06/"><i class="fa fa-flickr" style="color:#55A747"></i></a>
+    <a href="https://soundcloud.com/liluzivert"><i class="fa fa-soundcloud" style="color:#55A747"></i></a>
   </div>
 </footer>
 </body>
