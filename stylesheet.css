@@ -46,6 +46,8 @@
 .filler-text {
 	border: 1px white;
     padding: 25px;
+    width: 50%;
+    margin: auto;
 }
 
 h3 {
